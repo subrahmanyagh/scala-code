@@ -1,0 +1,19 @@
+Declare and initialize a number. Check whether the number is in the range 0 – 100 or not .
+If not in the range print invalid input .  else -  if the number is in the range 90 – 100 then print super smart, 80 – 90 print smart, 70- 80 print smart enough, 60 – 70 print just smart, 35 – 60 print no smart,  0 – 35 print dump.
+
+val num = 50
+if (num < 0 || num > 100) {
+    println("Invalid input")
+} else if (num >= 90 && num <= 100) {
+    println("Super smart")
+} else if (num >= 80 && num < 90) {
+    println("Smart")
+} else if (num >= 70 && num < 80) {
+    println("Smart enough")
+} else if (num >= 60 && num < 70) {
+    println("Just smart")
+} else if (num >= 35 && num < 60) {
+    println("No smart")
+} else {
+    println("Dump")
+}
