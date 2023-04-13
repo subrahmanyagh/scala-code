@@ -1,0 +1,6 @@
+object Main extends App {
+  for (i <- 20 to 140 by 4) {
+    println(i)
+    println(i + 2)
+  }
+}
