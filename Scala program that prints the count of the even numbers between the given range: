@@ -1,0 +1,9 @@
+object Main extends App {
+  var count = 0
+  for (i <- 700 to 900) {
+    if (i % 2 == 0) {
+      count += 1
+    }
+  }
+  println(s"Count of even numbers between 700 and 900 is $count")
+}
