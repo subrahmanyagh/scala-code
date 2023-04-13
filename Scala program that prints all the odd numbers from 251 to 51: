@@ -1,0 +1,5 @@
+object Main extends App {
+  for (i <- 251 to 51 by -2) {
+    println(i)
+  }
+}
