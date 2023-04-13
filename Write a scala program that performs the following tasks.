@@ -1,0 +1,23 @@
+a.	Stores a number in a variable
+b.	If value is not in range (100 - 1000)  prints wrong number else follows the steps
+c.	Check even or odd
+d.	If even divide the number by 3 and print the remainder 
+e.	If odd the number by 2 and print the remainder
+
+
+object Main {
+  def main(args: Array[String]) {
+    val num = 500
+    if (num < 100 || num > 1000) {
+      println("Wrong number")
+    } else {
+      if (num % 2 == 0) {
+        val remainder = num % 3
+        println(s"Even number. Remainder after dividing by 3 is $remainder")
+      } else {
+        val remainder = num % 2
+        println(s"Odd number. Remainder after dividing by 2 is $remainder")
+      }
+    }
+  }
+}
