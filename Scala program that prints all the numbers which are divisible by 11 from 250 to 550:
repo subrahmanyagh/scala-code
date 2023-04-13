@@ -1,0 +1,7 @@
+object Main extends App {
+  for (i <- 250 to 550) {
+    if (i % 11 == 0) {
+      println(i)
+    }
+  }
+}
