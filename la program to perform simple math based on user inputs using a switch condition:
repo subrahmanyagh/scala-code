@@ -1,0 +1,19 @@
+import scala.io.StdIn
+
+object Main {
+  def main(args: Array[String]): Unit = {
+    println("Enter two numbers:")
+    val num1 = StdIn.readDouble()
+    val num2 = StdIn.readDouble()
+    println("Enter an operator (+, -, *, /):")
+    val operator = StdIn.readLine()
+    
+operator match {
+      case "+" => println(num1 + num2)
+      case "-" => println(num1 - num2)
+      case "*" => println(num1 * num2)
+      case "/" => println(num1 / num2)
+      case _ => println("Invalid operator")
+    }
+  }
+}
